@@ -14,6 +14,7 @@ You need to edit the script and change:
 database_name = "C:\\Users\\Path\\To\\Quantower\\AMP Quantower\\History\\AMP47CQG\\history.db"
 ```
 You MUST have time set in UTC timezone (if you need to handle with timezone convertion use `pip install pytz`) and in dotnet tick format i've provided a exemple function to do this.
+
 You may need to change this too as your data file have:
 ```
     values = line.split(";")
