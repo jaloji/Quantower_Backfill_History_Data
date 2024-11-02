@@ -40,3 +40,9 @@ To run this:
 ```
 python.exe insert.py
 ```
+
+WARNING !
+-----
+Once its imported you need to click on 'Refresh' only ! If you want to try 'Reload from server' do a backup of your history.db file.
+Even with refresh it will downloads missing days or data if you have some but then it will use the data in your history.db fil when your provider don't have them.
+So to have a history.db up-to-date you just need to do 'refresh' some time.
